@@ -1,0 +1,27 @@
+.client{
+  &__search{
+    display: inline-flex;
+    align-items: center;
+    background: white;
+    border: 1px solid rgba(77, 77, 77, 0.1);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    .fa-search{
+      path{
+        fill: #807d7d;
+      }
+    }
+  }
+
+  &__search-input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+}

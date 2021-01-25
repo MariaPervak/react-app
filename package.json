@@ -25,7 +25,14 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@reduxjs/toolkit": "^1.5.0",
+    "axios": "^0.21.1",
+    "normalize-scss": "^7.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
