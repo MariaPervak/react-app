@@ -1,4 +1,11 @@
 .client__approve{
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  .client__item.opened &{
+    opacity: 1;
+  }
+
   .client__approve-checkbox{
     position: absolute;
     z-index: -1;

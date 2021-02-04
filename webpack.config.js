@@ -10,9 +10,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.js$|jsx/,
         exclude: /node_modules/,
-        use: ["babel-loader"]
+        use: ["babel-loader"],
       },
       {
         test: /\.css$/,
@@ -37,6 +37,7 @@ module.exports = {
     alias: {
       '@App': path.resolve(__dirname, 'src/app/'),
       '@Components': path.resolve(__dirname, 'src/components/'),
-    }
+    },
+    extensions: ['.js', '.jsx']
   },
 };

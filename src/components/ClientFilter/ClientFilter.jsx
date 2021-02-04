@@ -1,5 +1,5 @@
 import React from 'react';
-import ClientSearch from "@Components/ClientSearch/client-search";
+import ClientSearch from "@Components/ClientSearch/ClientSearch";
 import './style.scss';
 
 const ClientFilter = () => {

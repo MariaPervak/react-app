@@ -17,6 +17,10 @@
     border-radius: 15px;
     box-shadow: 13px 10px 17px -19px rgba(77,77,77,0.1);
     overflow: hidden;
+
+    .client__item.opened &{
+      position: absolute;
+    }
   }
 
   &__item-header {
@@ -26,12 +30,15 @@
     margin-bottom: 1vh;
     padding: 0 1vw;
   }
+
   &__item-title {
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
   }
+
   &__item-body {}
+
   &__item-price {
     font-size: 1.2rem;
     font-weight: 600;
@@ -40,8 +47,10 @@
   }
   &__item-company {
     padding: 0 1vw;
+    margin-bottom: 0;
   }
   &__item-inn {
+    margin-top: 0;
     color: #b4b4b4;
     margin-bottom: 2vh;
     padding: 0 1vw;
@@ -72,18 +81,7 @@
     padding: 15px 0;
     background: #eaecf5;
 
-    //&:before{
-    //  content: '';
-    //  position: absolute;
-    //  width: 200%;
-    //  height: 100%;
-    //  top: 0;
-    //  left: -50%;
-    //  background: #eaecf5;
-    //  z-index: 0;
-    //}
-
-    span{
+    > span{
       padding: 0 1vw;
     }
   }
@@ -99,4 +97,9 @@
   &__item-date {
     font-size: 0.8rem;
   }
+}
+
+.highlight{
+  background: #745582;
+  color: white;
 }

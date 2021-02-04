@@ -1,5 +1,5 @@
 import React from 'react';
-import {approveClient} from "@Components/ClientList/clientsSlice";
+import {approveClient} from "@Components/ClientList/ClientsSlice";
 import {useDispatch} from "react-redux";
 
 import './style.scss';

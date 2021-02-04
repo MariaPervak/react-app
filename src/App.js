@@ -1,6 +1,6 @@
 import React from "react";
-import ClientList from '@Components/ClientList/client-list';
-import ClientFilter from "@Components/ClientFilter/client-filter";
+import LientList from '@Components/ClientList/СlientList';
+import ClientFilter from "@Components/ClientFilter/ClientFilter";
 
 import './styles/App.scss';
 
@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<div className="container">
 			<ClientFilter/>
-			<ClientList/>
+			<LientList/>
 		</div>
 	);
 };
